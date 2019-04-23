@@ -1,10 +1,10 @@
 var cacheName = 'my-pwa-cache';
 var filesToCache = [
-	'/',
-	'/index.html',
-	'/css/style.css',
-	'/js/main.js',
-	'/images/cherry.png'
+	'./',
+	'./index.html',
+	'./css/style.css',
+	'./js/main.js',
+	'./images/cherry.png'
 ];
 
 /* Start the service worker and cache app content */
