@@ -37,3 +37,9 @@ body {
 	text-align: justify;
 	font-family: 'Cabin';
 }
+
+@media screen and (max-width: 600px) {
+	.content-item {
+		max-width: 80%;
+	}
+}
