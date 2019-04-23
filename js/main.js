@@ -3,7 +3,7 @@
 if('serviceWorker' in navigator) {
 	navigator.serviceWorker
 		.register('/sw.js')
-        .then(function() { console.log("Service Worker Registered"); });
+		.then(function() { console.log("Service Worker Registered"); });
 }
 
 fetch('content.json')
@@ -11,7 +11,7 @@ fetch('content.json')
 		return response.json();
 	})
 	.then(function(data){
-        document.getElementById("the-title").innerHTML = data[0].title;
+		document.getElementById("the-title").innerHTML = data[0].title;
 		document.getElementById("the-content").innerHTML = data[0].text;
 	})
 	.catch(function(error){
